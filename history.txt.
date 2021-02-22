@@ -1,0 +1,552 @@
+    1  sudo apt update
+    2  sudo apt -y upgrade
+    3  ls
+    4  clear
+    5  sudo apt update
+    6  sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+    7  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    8  sudo apt -y install nodejs
+    9  sudo apt install nodejs
+   10  node --version
+   11  npm --version
+   12  sudo apt -y  install gcc g++ make
+   13  sudo apt  install gcc g++ make
+   14  cd desktop
+   15  cwd
+   16  cd Desktop
+   17  touch home.js
+   18  cd Desktop
+   19  touch the-dark-knight.css
+   20  node home
+   21  ls
+   22  pwd
+   23  mkdir workspace
+   24  cd workspace
+   25  ls
+   26  touch README.md
+   27  cp README.md CHANGELOG.md
+   28  ls
+   29  echo $PATH
+   30  clear
+   31  sudo apt update
+   32  sudo apt upgrade
+   33  sudo apt install git
+   34  git --version
+   35  pwd
+   36  cd ../Desktop
+   37  mv task1.sh /linux-challenges
+   38  mv task1.sh linux-challenges
+   39  cd linux-challenges
+   40  git init
+   41  git status
+   42  git add task1.sh
+   43  git commit .
+   44  git config --global user.name "Thabiso Makolana"
+   45  git config --global user.mail "makolanathabiso@gmail.com"
+   46  git commit .
+   47  git commit
+   48  git config --global user.email "you@example.com"
+   49  git config --global user.mail  makolanathabiso@gmail.com
+   50  git config --global user.name "Thabiso Makolana"
+   51  clear
+   52  git status
+   53  git commit -m "saved task1.sh file"
+   54  git status
+   55  touch task2.sh
+   56  clear
+   57  cd ..
+   58  clear
+   59  touch exercise.md
+   60  mkdir tmp
+   61  mv exercise.md tmp
+   62  rm /home/recruit/Desktop/tmp/exercise.md
+   63  clear
+   64  touch exercise.md
+   65  clear
+   66  cd Desktop
+   67  touch exercise.md
+   68  mkdir tmp
+   69  mv exercise.md tmp
+   70  rm /home/recruit/Desktop/tmp/exercise.md
+   71  cls
+   72  cd Desktop
+   73  touch exercise.md
+   74  mkdir tmp
+   75  mv exercise.md tmp
+   76  rm /home/recruit/Desktop/tmp/exercise.md
+   77  locate umuzi.md
+   78  locate tmp
+   79  clear
+   80  updatedb
+   81  locate umuzi.md
+   82  sudo updatedb
+   83  locate umuzi.md
+   84  sudo updatedb
+   85  locate umuzi.md
+   86  locate umuzi
+   87  sudo updatedb
+   88  locate umuzi
+   89  sudo updatedb
+   90  locate umuzi
+   91  locate umuzi 1> search_results.md
+   92  touch Documents/pad.md
+   93  cd Desktop
+   94  mkdir work
+   95  cd work
+   96  cp ../../Documents/pad.md pad_copy.md
+   97  locate updatedb
+   98  cd ../../Documents
+   99  locate pad_copy
+  100  locate pad_copy.md
+  101  sudo updatedb
+  102  locate pad_copy
+  103  find ./ -type f -name *.pdf
+  104  find . -mtime -1 -print
+  105  clear
+  106  find ./ -type f -name *.pdf
+  107  find ./ -type f -name *.pdf -exec cp {} /Desktop/allpdf \;
+  108  cd Desktop
+  109  cd ..
+  110  find ./ -type f -name *.pdf -exec cp {} /Desktop/allpdf \;
+  111  find ./ -type f -name *.pdf
+  112  find ./ -type f -name *.pdf 1> Desktop/pdf.txt
+  113  find ./ -mtime -1 -print
+  114  nano Desktop/my_bio.md
+  115  mkdir my_files
+  116  mv my_bio.md my_files/
+  117  mv Desktop/my_bio.md my_files/
+  118  sudo apt update
+  119  sudo apt upgrade
+  120  sudo apt install tree
+  121  sudo dpkg -i code_1.43.1-1584515895_amd64.deb
+  122  sudo dpkg -i Download/code_1.43.1-1584515895_amd64.deb
+  123  sudo dpkg -i Downloads/code_1.43.1-1584515895_amd64.deb
+  124  find ./ -type f -name *.pdf -exec cp {} /Desktop/allpdf \;
+  125  find ./ -type f -name *.pdf -exec cp {} Desktop/allpdf \;
+  126  find ./ -type f -name *.pdf
+  127  find ./ -type f -name *.pdf -exec cp {} Desktop/allpdf \;
+  128  cd Desktop/linux-challenges
+  129  git status
+  130  git add
+  131  git add .
+  132  git commit -m "dine with errthing"
+  133  git status
+  134  git push origin master
+  135  git remote add origin https://github.com/Katudii/linux-challenges.git
+  136  git push -u origin master
+  137  git pull https://github.com/Katudii/linux-challenges.git
+  138  git push -u origin master
+  139  pit push --force https://github.com/Katudii/linux-challenges.git
+  140  git push --force https://github.com/Katudii/linux-challenges.git
+  141  nano my_bio.md
+  142  mkdir my_files
+  143  mv my_bio.md my_files
+  144  cd Desktop
+  145  mkdir git-basic-exercises
+  146  cd git-basic-exercises
+  147  ls
+  148  git init
+  149  ls -a
+  150  ls
+  151  git status
+  152  touch README.md
+  153  ls -a
+  154  git log
+  155  git add .
+  156  git status
+  157  git rm --cached .
+  158  git rm --cached README.md
+  159  git status
+  160  git add .
+  161  git commit -m "First commit"
+  162  git log
+  163  nano README.md
+  164  cd Desktop
+  165  mkdir git-basic-exercises
+  166  cd git-basic-exercises
+  167  ls -a
+  168  git init
+  169  ls -a
+  170  git status
+  171  touch README.md
+  172  ls -a
+  173  git status
+  174  git log
+  175  git add .
+  176  git status
+  177  git rm --cached README.md
+  178  git status
+  179  git add .
+  180  git commit -m "First commit"
+  181  git log
+  182  nano README.md
+  183  cat README.md
+  184  git status
+  185  git commit -m "second commit"
+  186  git add .
+  187  git commit -m "second commit"
+  188  nano README.md
+  189  git add .
+  190  git commit -m "third  commit"
+  191  git config user.mail makolanathabiso@gmail.com
+  192  git log
+  193  git checkout b476d6c8711780db66c8dd1f746a75f358853021
+  194  cat README.md
+  195  git checkout master
+  196  cat README.md
+  197  git branch
+  198  git branch milkshake-flavours
+  199  git branch
+  200  git checkout milkshake-flavours
+  201  git branch
+  202  nano README.MD
+  203  git status
+  204  git add .
+  205  git commit -m "added initial flavours"
+  206  git log
+  207  git checkout master
+  208  git log
+  209  git branch history
+  210  git checkout history
+  211  git log
+  212  history > history.txt
+  213  git add .
+  214  git commit -m "added history"
+  215  git log
+  216  git checkout 
+  217  git log
+  218  git checkout milkshake-flavours
+  219  git log
+  220  echo "random readme changes" 1>> README.md
+  221  git status
+  222  git add .
+  223  git commit -m "random readme changes"
+  224  git checkout history
+  225  cat README.md
+  226  rm README.md echo "booya booya booya!" 1> README.md
+  227  echo "booya booya booya!" 1> README.md
+  228  cat README.md
+  229  git add .
+  230  git commit -m "rewrote README.md"
+  231  git checkout master
+  232  ls
+  233  git log
+  234  git checkout milkshake-flavours
+  235  ls
+  236  git log
+  237  git checkout history
+  238  ls
+  239  rm milkshakes.md
+  240  git add .
+  241  git commit -m " "
+  242  ls
+  243  git log
+  244  git checkout master
+  245  git merge milkshake-flavours
+  246  ls
+  247  git checkout milkshake-flavours
+  248  git commit -m ""
+  249  git status
+  250  git add .
+  251  git commit -m " "
+  252  git commit -m "empty"
+  253  git checkout master
+  254  git merge milkshake-flavours
+  255  ls
+  256  git log
+  257  git checkout history
+  258  git merge master
+  259  git status
+  260  git clone https://github.com/Umuzi-org/tech-department.git
+  261  cd tech-department
+  262  ls
+  263  git clone https://github.com/Umuzi-org/tech-department.git
+  264  cd tech-department
+  265  git branch
+  266  git log
+  267  git branch -a
+  268  git remote -v
+  269  git branch project/git-basic-exercises
+  270  git --track branch project/git-basic-exercises
+  271  git checkout master
+  272  master > master.txt
+  273  git master > master.txt
+  274  nano name.md
+  275  fdisk -l
+  276  cd .local/share/Trash/
+  277  cd files
+  278  rm -rf *
+  279  ls -l
+  280  git clone https://github.com/bongivilakazi/mysites-mycars.git
+  281  cd Desktop/
+  282  ls
+  283  pip install python
+  284  sudo apt install python-pip
+  285  sudo apt intall python3
+  286  git init
+  287  git add .
+  288  git status
+  289  git commit -m"origins"
+  290  git push
+  291  git push -u origin master
+  292  cd de
+  293  cd Desktop/
+  294  ls
+  295  cd mysites-mycarsproject/
+  296  echo "# original-one" >> README.md
+  297  git init
+  298  git add README.md
+  299  git commit -m "first commit"
+  300  git remote add origin https://github.com/bongivilakazi/original-one.git
+  301  git push -u origin master
+  302  git init
+  303  echo "# mysites-mycarsproject" >> README.md
+  304  git init
+  305  git add README.md
+  306  git commit -m "first commit"
+  307  git remote add origin https://github.com/bongivilakazi/mysites-mycarsproject.git
+  308  git push -u origin master
+  309  gitinit
+  310  cd Desktop/
+  311  ls
+  312  cd mysites-mycars b
+  313  cd mysites-mycars b b
+  314  cd Desktop/
+  315  cd mysites-mycars
+  316  ls
+  317  git remote add origin https://github.com/bongivilakazi/original-one.git
+  318  git push -u origin master
+  319  git init
+  320  git add .
+  321  git remote add origin https://github.com/bongivilakazi/original-one.git
+  322  git push -u origin master
+  323  echo "# original-one" >> README.md
+  324  git init
+  325  git add README.md
+  326  git commit -m "first commit"
+  327  git remote add origin https://github.com/bongivilakazi/original-one.git
+  328  git push -u origin master
+  329  echo "# original-one" >> README.md
+  330  git init
+  331  git add README.md
+  332  git commit -m "first commit"
+  333  git remote add origin https://github.com/bongivilakazi/original-one.git
+  334  git push -u origin master
+  335  echo "# original-one" >> README.md
+  336  git init
+  337  git add README.md
+  338  git commit -m "first commit"
+  339  git remote add origin https://github.com/bongivilakazi/original-one.git
+  340  git push -u origin master
+  341  cd Desktop/
+  342  cd original-one/
+  343  git init
+  344  git status
+  345  git add .
+  346  git commit -m"message"
+  347  git status
+  348  git push
+  349  cd ..
+  350  cd mysites-mycars
+  351  ls
+  352  git init
+  353  git push origin master
+  354  node animal.js
+  355  cd src
+  356  node animal.js
+  357  clear
+  358  cd ..
+  359  cd spec/
+  360  jasmine animal_Spec.js 
+  361  cd ..
+  362  npm install juasmine
+  363  npm install jasmine
+  364  cd spec/
+  365  jasmine animal_Spec.js 
+  366  sudo apt install jasmine
+  367  ls
+  368  jasmine animal_Spec.js 
+  369  jasmin animal_Spec.js 
+  370  jasmine init
+  371  cd Desktop/
+  372  cd mockandspies-kata/
+  373  ls
+  374  node mocksAndSpies
+  375  cd src
+  376  node mocksAndSpies
+  377  node mocksAndSpies.js 
+  378  node mocK.js
+  379  node mock.js
+  380  ls
+  381  node mock.js
+  382  node mocksAnd
+  383  sudo apt-get install python-pip
+  384  cd Desktop/
+  385  L
+  386  LS
+  387  ls
+  388  cd original-one/
+  389  ls
+  390  python3 manage.py runserver
+  391  sudo apt-get install python-pip
+  392  python3 manage.py runserver
+  393  source environment/bin/activate
+  394  python3 manage.py runserver
+  395  python -v
+  396  python --version
+  397  cd Desktop/
+  398  cd original-one/
+  399  source environment/bin/activate
+  400  python manage.py runsever
+  401  python3 manage.py runserver
+  402  sudo apt install python3
+  403  python -v
+  404  \\\\\\\;knjjk255555548/**
+  405  11
+  406  22.
+  407  sudo apt-get update
+  408  {% contentlink path=“environment-setup/git” %}}
+  409  cd Desktop/
+  410  cd katas_excercises/
+  411  node findMultpleNumbers
+  412  node findMultpleNumbers.js
+  413  mkdir git-basic-excercises
+  414  ls
+  415  cd Desktop/
+  416  node findMultpleNumbers.js
+  417  cd katas_excercises/
+  418  node findMultpleNumbers.js
+  419  sudo gedit /etc/hostname
+  420  cd Desktop/
+  421  ls
+  422  cd katas_excercises/
+  423  node iscoceles.js 
+  424  node square.js 
+  425  node iscoceles.js 
+  426  cd Desktop/
+  427  git clone https://github.com/bongivilakazi/bongivilakazi.github.io.git
+  428  cd Desk~
+  429  cd Desktop/
+  430  git clone https://github.com/Lentswe215/portfolio-website.git
+  431  cd Desktop/
+  432  cd myPersoanlWebsite/
+  433  git add .
+  434  git init
+  435  git add .
+  436  git status
+  437  git push
+  438  git commit -m"message"
+  439  git push
+  440  git push origin master
+  441  cd Des
+  442  CD Desk
+  443  cd Desktop/
+  444  cd Desktop/
+  445  mkdir Git-Basic_excercises
+  446  cd Git-Basic_excercises/
+  447  ls -a
+  448  git init
+  449  ls -a
+  450  git status
+  451  touch README
+  452  touch README.md
+  453  ls -a
+  454  git status
+  455  git log
+  456  git add .
+  457  git status
+  458  git commit -m "initial commit"
+  459  git init
+  460  git add README.md
+  461  git commit -m "first commit"
+  462  git branch -M main
+  463  git remote add origin https://github.com/bongivilakazi/Git-Basic_excercises.git
+  464  git push -u origin main
+  465  git log
+  466  q
+  467  nano README.md
+  468  cat README.md 
+  469  git add .
+  470  git status
+  471  git commit -m ""second commit"
+  472  cd Gi
+  473  cd Desktop/
+  474  cd Git-Basic_excercises/
+  475  git init
+  476  git add .
+  477  git status
+  478  git commit =m"second commit"
+  479  git commit -m"second commit
+  480  q
+  481  git commit =m"second commit"
+  482  cd Desktop/
+  483  cd Git-Basic_excercises/
+  484  git init
+  485  git add .
+  486  git status
+  487  git push
+  488  git commit -m"second-commit"
+  489  git config --global user.name
+  490  git config --global user.name "Sibongile Vilakazi"
+  491  git config --global user.name 
+  492  git config --global user.mail bongi.vilakazi@umuzi.org
+  493  git config --global user.mail 
+  494  git commit -m"second-commit"
+  495  echo "# Git_Basic_Excercises" >> README.md
+  496  git init
+  497  git add README.md
+  498  git commit -m "first commit"
+  499  git branch -M main
+  500  git remote add origin https://github.com/bongivilakazi/Git_Basic_Excercises.git
+  501  git push -u origin main
+  502  git commit -m "initial commit"
+  503  nano README.md 
+  504  git add .
+  505  git status
+  506  git commit -m"second commit"
+  507  git push
+  508  cd ..
+  509  cd Git_Basics
+  510  git init
+  511  touch README.md
+  512  ls -a
+  513  git add .
+  514  git status
+  515  git commit -m "initial commit"
+  516  git log
+  517  git init
+  518  git add README.md
+  519  git commit -m "first commit"
+  520  git branch -M main
+  521  git remote add origin https://github.com/bongivilakazi/Git_Basics.git
+  522  git push -u origin main
+  523  nano README.md
+  524  git status
+  525  git add .
+  526  git commit -m"second commit"
+  527  cat README.md 
+  528  nano README.md 
+  529  git commit -m"third message"
+  530  git add .
+  531  git status
+  532  git commit -m"third message"
+  533  git push
+  534  git log
+  535  git checkout a8c49deb03d870bc63dba5b60e609f2c99f12de6
+  536  cat README.md
+  537  git checkout main
+  538  cat README.md
+  539  git branch
+  540  nano milkshakes.md
+  541  cd Desktop/
+  542  cd Git_Basics
+  543  git init
+  544  git add .
+  545  git status
+  546  git commit -m"added initial flavour"
+  547  git push
+  548  git log
+  549  git branch history
+  550  git checkout history
+  551  git branch
+  552  history > history.txt.
